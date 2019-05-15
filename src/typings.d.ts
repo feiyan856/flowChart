@@ -11,9 +11,4 @@ declare let diagGraph: {
   graphWidth: 0,
   graphHeight: 0,
   init: (statePoint: any, state: any, edg: any) => void;
-  createG: () => void;
-  drawNode: () => void;
-  drawEdg: () => void;
-  renderG: (any) => void;
-  changePoint: () => void;
 };
