@@ -1,0 +1,227 @@
+/*
+h1 {
+  font-size: 3em;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+section p {
+  text-align: justify;
+}
+
+svg {
+  overflow: auto;
+  margin: 0 auto;
+}
+
+pre {
+  border: 1px solid #ccc;
+}
+
+!* This sets the color for "TK" nodes to a light blue green. *!
+
+g.type-suss>rect {
+  fill: #ddefd3;
+}
+
+.node text {
+  font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serf;
+  font-size: 12px;
+  pointer-events: none;
+  text-anchor: middle;
+  fill: white;
+}
+
+.label g text tspan:last-child {
+  font-size: 10px;
+  margin-top: 5px;
+  dy: 1.5em;
+}
+
+.label g {
+  transform: translate(0, -13px);
+}
+
+.node rect {
+  fill: white;
+  stroke-width: 0px;
+  color: white;
+}
+
+.edgePath path {
+  stroke: rgb(78, 78, 78);
+  stroke-width: 1px;
+}
+
+g.type-init>rect {
+  fill: rgba(0, 91, 252, 0.4);
+}
+
+g.type-ready>rect {
+  fill: rgba(0, 91, 252, 0.6);
+}
+
+g.type-queue>rect {
+  fill: rgba(0, 91, 252, 0.8);
+}
+
+g.type-run>rect {
+  fill: rgba(0, 91, 252, 1);
+}
+
+g.type-suss>rect {
+  fill: #3EBB44;
+}
+
+g.type-fail>rect {
+  fill: #E93A3A;
+
+}
+
+g.type-freeze>rect {
+  fill: #f2f3f7;
+}
+
+g.type-common>rect {
+  fill: #e6f7ff;
+  border: 1px solid #91d5ff;
+}
+
+.type-common text {
+  fill: #1890ff;
+}
+
+.type-freeze text {
+  fill: #999999;
+}
+#myMenu{
+  position: absolute;
+  display: none;
+  width: 100px;
+  height: 100px;
+  background: #999999;
+}*/
+
+
+text {
+  font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serf;
+  font-size: 14px;
+}
+
+g.type-common>rect {
+  stroke-width: 1px;
+  fill: transparent;
+  stroke: #1890ff;
+  stroke-linejoin: round;
+  /*stroke-dasharray: 10,5;
+  stroke-dashoffset: 0;
+  transition: 1s all ease*/
+}
+.type-common span {
+  color: #000000;
+}
+.dbIcon {
+  width: 14px;
+  height:14px;
+  margin-right: 5px;
+}
+.edgeLabel {
+  position: relative;
+}
+
+.edgeLabel .label {
+  position: relative;
+  top: -30px;
+}
+.funLabel {
+  border-radius: 5px;
+  border: 1px solid #91d5ff;
+  background: #e6f7ff;
+  padding: 2px 5px;
+  position: relative;
+  top: -60px;
+  color: #1890ff;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.interface {
+  color: #fa541c;
+  background: #fff2e8;
+  border-radius: 5px;
+  border: 1px solid #ffbb96;
+  padding: 2px 5px;
+  position: relative;
+  top: -60px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.lineLabel {
+  text-align: center;
+}
+
+.messages {
+  border: 1px solid #FFC107;
+  background: #FFC107;
+  padding: 1px 5px;
+  position: relative;
+  top: -60px;
+  color: #000;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.bytes {
+  border-radius: 5px;
+  border: 1px solid #FFEB3B;
+  background: #FFEB3B;
+  padding: 1px 5px;
+  position: relative;
+  top: -60px;
+  color: #000;
+  cursor: pointer;
+}
+
+.bytesZerro {
+  border-radius: 5px;
+  border: 1px solid red;
+  background: red;
+  padding: 1px 5px;
+  position: relative;
+  top: -60px;
+  color: #fff;
+  cursor: pointer;
+}
+
+svg:not(:root), symbol, image, marker, pattern, foreignObject {
+  overflow: visible !important;
+}
+
+/*.node rect {
+  stroke: #333;
+  fill: #fff;
+  stroke-width: 1.5px;
+}
+
+.node polygon {
+  stroke: #333;
+  fill: #fff;
+  stroke-width: 1.5px;
+}
+
+.edgePath path.path {
+  stroke: #333;
+  fill: none;
+  stroke-width: 1.5px;
+}*/
